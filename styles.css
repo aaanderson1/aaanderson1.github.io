@@ -217,6 +217,28 @@ input[type=submit] {
   border: 0 none;
 }
 
-.thumbnail {
-  margin-right: 20px;
+.content-container {
+    padding-top: 100px;
+}
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (max-width: 640px) {
+  .nav-resp {
+      width: 100%;
+      text-align: center;
+  }  
+  #logo {
+      width: 100%;
+  }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 980px) {
+
 }

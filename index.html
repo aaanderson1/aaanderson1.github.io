@@ -1,47 +1,53 @@
-<!doctype html>
-<html lang="en-us">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>About Me - Allison Anderson</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
 </head>
 
 <body>
+    <div class="bkg">
+        <div class="foreground">
+            <div class="header">
+                <h1>
+                    Hangman with Birds
+                </h1>        
+            </div>
+            <div class="play-area">
+                <div class= "play-text" id="play-text">
 
-  <header id="masthead">
-    <div class="container">
-      <a href="#" id="logo">Allison Anderson</a>
-      <nav class="nav-resp">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+                    ____
+                </div>
+                <div class="guesses-remaining" id="guesses-remaining-text">
+                   
+                </div>
+                <h3 class="guess-area" id="guess-text">
+                    
+                </h3>
+                <h3 class="message-area" id="message-area">
+                    
+                </h3>
+            </div>
+            <div class="results-area">
+            </div>
+            <div class="input-area">
+                
+
+            </div>
+            <div class="reset-button">
+                <span>
+                    <button onclick="reset()">
+                        Reset
+                    </button>
+                </span>
+            </div>
+            <div class="birdimage" id = "birdimage">
+                
+            </div>
+        </div>
     </div>
-  </header>
-  <div class="wrapper">
-    <div id="main-container" class="container">
-      <section class="main-section">
-        <h1>About Me</h1>
-        <div1 id="relative">
-                <background= white>
-                    <img src="Photo.jpg" align="left" alt="photo" class="thumbnail" style="width:150px;height:160px;">
-                </background>
-        <p>I am a new student in the Full-Stack Coding Bootcamp at the University of Denver. Previous to this program, I've worked in IT Help Desk Support for the past 6 years. I have completed several IT projects including company-wide roll-outs and upgrades. I work closely with the IT Infrastructure teams in Networking, System Administration (servers and virtual machines), InfoSec (Cyber Security), and last but not least, working with the Developers. The roles also consisted of assisting all employees company-wide for their IT needs. So far, I have experience working in primarily Windows/Microsoft based environments, and large billion dollar enterprise companies in my IT career.</p>
-        <p>Right out of college, my first career was working in law firms as a Paralegal. I spent 7 years in various areas of law: Family Law, Probate and Estate, Criminal, Business, and Collections law. I drafted and processed all legal documents to e-file with courts in various counties in Colorado and Florida. I was also a notary.</p>
-        <p>I have a Bachelor of Science in Business Management and an Associate Degree of Applied Science in Law as a Paralegal.</p>
-        <p>Hobbies and Interests: Family, photography, silversmithing, DIY property renovation, weightlifting, and animal welfare volunteering. I continue my education and prefer to stay busy with accomplishing my goals.</p></p>
-      </section>
-  
-      <div class="push"></div>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
+    <script src="assets/javascript/game.js">
+    </script>
 </body>
+
 </html>

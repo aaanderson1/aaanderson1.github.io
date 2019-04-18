@@ -1,0 +1,19 @@
+.header {
+    font-size: xx-large;
+    color:navy;
+    text-align: center;
+    font-family: Arial;
+}
+body {
+    background-color: lightblue;     
+    height: 604px;
+    width: 868px;
+    background-position: center; 
+    background-repeat: repeat; 
+  }
+  button {
+      background-color: lightgrey;
+      color: navy;
+      font-size: 20px;
+      margin: 5px;
+  }

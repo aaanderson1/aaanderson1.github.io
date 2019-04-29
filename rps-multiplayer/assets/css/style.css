@@ -1,0 +1,53 @@
+/* .header {
+    font-size: xx-large;
+    color: navy;
+    text-align: center;
+    font-family: arial;
+} */
+.button {
+      background-color: lightgrey;
+      color: navy;
+      font-size: 20px;
+      margin: 5px; 
+  }
+img.button {
+    max-height: 150px;
+  }
+img.button:hover {
+    filter: drop-shadow(5px 5px 10px blue);  
+}
+.action-image {
+    background-color: lightgrey;
+    color: navy;
+    font-size: 20px;
+    margin: 5px; 
+    max-height: 150px;
+}
+.vs {
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    height: 150px; 
+    width: 150px;
+    vertical-align: middle;
+}
+.play-again-button {
+
+}
+.play-again-area {
+    padding-left: 200px;
+    display: none;
+}
+.stat-area {
+    overflow: hidden;
+    background-color:lightblue;
+    width: 450px;
+    padding-left: 10px; 
+}
+.stat-area .my-stats {
+    float: left;
+}
+.stat-area .their-stats {
+    float: right;
+    padding-right: 10px;
+}

@@ -38,7 +38,7 @@ function initialize() {
 initialize();
 function queryGiphy(keyword,fulfillGiphy){
     let queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-    keyword + "&api_key=dc6zaTOxFJmzC&limit=10&rating=PG-13";
+    keyword + "&api_key=HB9r4F8jDCV9p939CLcfaAE1hjcZWFQY&limit=10&rating=PG-13";
     let htmlRequest = new XMLHttpRequest();
     htmlRequest.onload = function() { 
         if(htmlRequest.response) {

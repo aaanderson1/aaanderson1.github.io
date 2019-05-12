@@ -1,0 +1,89 @@
+body {
+    background-image: url(../images/pub.jpg);
+    background-size: cover;
+    /* Photo by Mary Rebecca Elliott on Unsplash */
+}
+
+h1 {
+    font-family: 'BioRhyme Expanded', serif;
+    color: #ff8200;
+    font-size: 4.5rem;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
+
+.form-control {
+    width: 100%;
+    text-align: center;
+}
+
+label {
+    font-size: 35px;
+
+
+}
+
+.container {
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.58);
+    height: 120%;
+    width: 65%;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ff8200a3;
+    color: black;
+    text-align: center;
+    height: 38px;
+}
+
+button {
+    background-color: #ff8200;
+    margin: 15px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'BioRhyme Expanded', serif;
+}
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+tr {
+    background-color: #ff8200;
+    border: 1px solid rgba(255, 255, 255, 0.58);
+}
+
+<<<<<<< HEAD
+ /* JavaScript will position this div at the bottom of the popup tip. */
+ .popup-container {
+     cursor: auto;
+     height: 0;
+     position: absolute;
+     /* The max width of the info window. */
+     width: 200px;
+ }
+.results-table {
+    display: none;
+=======
+thead {
+    background-color: #ff8200;
+    border: 1px solid rgba(255, 255, 255, 0.58);
+>>>>>>> master
+}

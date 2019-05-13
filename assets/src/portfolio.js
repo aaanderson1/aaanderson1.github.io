@@ -20,7 +20,7 @@ var projects = [
     {
         projectName: "Dude, Where's My Beer?",
         liveLink: "team7/index.html",
-        githubLink: "sample",
+        githubLink: "https://github.com/aaanderson1/aaanderson1.github.io/tree/master/team7",
         imageLink: "assets/images/beer-api-thumbnail.jpg",
     },
     {
@@ -32,19 +32,24 @@ var projects = [
 ];
 function buildProject(parent, project) {
     var containerDiv = document.createElement("div");
+    containerDiv.classList.add("project-container");
     var image = document.createElement("img");
     image.src = project.imageLink;
+    image.classList.add("project-image");
     containerDiv.appendChild(image);
     var title = document.createElement("h2");
+    title.classList.add("project-title");
     title.innerHTML = project.projectName;
     containerDiv.appendChild(title);
     var liveLink = document.createElement("a");
     liveLink.href = project.liveLink;
     liveLink.innerHTML = "Live";
+    liveLink.classList.add("project-live");
     containerDiv.appendChild(liveLink);
     var githubLink = document.createElement("a");
     githubLink.href = project.githubLink;
     githubLink.innerHTML = "GitHub";
+    githubLink.classList.add("project-github");
     containerDiv.appendChild(githubLink);
     parent.appendChild(containerDiv);
 

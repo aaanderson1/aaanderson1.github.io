@@ -63,7 +63,7 @@ var projects = [
         projectName: "Page Turner",
         liveLink: "https://pageturner.herokuapp.com/",
         githubLink: "https://github.com/aaanderson1/project2",
-        imageLink: "",
+        imageLink: "https://github.com/aaanderson1/project2/blob/master/pageturnerscreenshot.png",
     },
 
 ];

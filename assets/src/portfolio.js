@@ -1,6 +1,6 @@
 var projects = [
     {
-        projectName: "Word Guess Game (Hangman with Birds)",
+        projectName: "Word Guess Game - Hangman with Birds",
         liveLink: "word-guess-game/index.html",
         githubLink: "https://github.com/aaanderson1/Word-Guess-Game",
         imageLink: "assets/images/hangman-thumbnail.jpg",
@@ -12,37 +12,37 @@ var projects = [
         imageLink: "assets/images/crystalsthumbnail.jpg",
     },
     {
-        projectName: "Trivia Game (Golden Girls)",
+        projectName: "Trivia Game - Golden Girls",
         liveLink: "triviagame/index.html",
         githubLink: "https://github.com/aaanderson1/triviagame",
         imageLink: "assets/images/triviagamethumbnail.jpg",
     },
     {
-        projectName: "Dude, Where's My Beer?",
+        projectName: "Dude, Where's My Beer? - Group Project 1",
         liveLink: "team7/index.html",
         githubLink: "https://github.com/aaanderson1/aaanderson1.github.io/tree/master/team7",
         imageLink: "assets/images/beer-api-thumbnail.jpg",
     },
     {
-        projectName: "Rock Paper Scissors Multiplayer",
+        projectName: "Rock Paper Scissors - Multiplayer",
         liveLink: "rps-multiplayer/index.html",
         githubLink: "https://github.com/aaanderson1/rps-multiplayer",
         imageLink: "assets/images/rps-thumbnail.jpg",
     },
     {
-        projectName: "GifTastic - Express Yourself - Directory",
+        projectName: "GifTastic - Express Yourself GIF Directory",
         liveLink: "https://aaanderson1.github.io/giftastic/",
         githubLink: "https://github.com/aaanderson1/giphytastic",
         imageLink: "assets/images/gifdirectorythumbnail.jpg",
     },
     {
-        projectName: "Bamazon - Online Inventory and Info",
+        projectName: "Bamazon - Online Inventory",
         // liveLink: "",
         githubLink: "https://github.com/aaanderson1/bamazon",
         imageLink: "assets/images/bamazon.png",
     },
     {
-        projectName: "Friend Finder - Filter",
+        projectName: "Friend Finder Filter",
         liveLink: "https://secret-bastion-11871.herokuapp.com/",
         githubLink: "https://github.com/aaanderson1/friend-finder",
         imageLink: "assets/images/friendfinder.png",
@@ -54,13 +54,13 @@ var projects = [
         imageLink: "assets/images/burger.png",
     },
     {
-        projectName: "Liri Node App (Siri API for musician info, concerts, movies, and more.)",
+        projectName: "Liri Node App - Siri API for Musician info, Concerts, Movies",
         // liveLink: "",
         githubLink: "https://github.com/aaanderson1/liri-node-app",
         imageLink: "assets/images/liri.png",
     },
     {
-        projectName: "Page Turner",
+        projectName: "Page Turner - Book Club Tracker - Group Project 2",
         liveLink: "https://pageturner.herokuapp.com/",
         githubLink: "https://github.com/aaanderson1/project2",
         imageLink: "assets/images/pageturnerscreenshot.png",

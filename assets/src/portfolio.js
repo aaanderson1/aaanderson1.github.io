@@ -33,37 +33,37 @@ var projects = [
         projectName: "GifTastic - Express Yourself - Directory",
         liveLink: "https://aaanderson1.github.io/giftastic/",
         githubLink: "https://github.com/aaanderson1/giphytastic",
-        imageLink: "assets/giftasticscreenshot.png",
+        imageLink: "assets/images/gifdirectorythumbnail.jpg",
     },
     {
         projectName: "Bamazon - Online Inventory and Info",
         // liveLink: "",
         githubLink: "https://github.com/aaanderson1/bamazon",
-        imageLink: "https://github.com/aaanderson1/bamazon/blob/master/bamazon.png",
+        imageLink: "assets/images/bamazon.png",
     },
     {
         projectName: "Friend Finder - Filter",
         liveLink: "https://secret-bastion-11871.herokuapp.com/",
         githubLink: "https://github.com/aaanderson1/friend-finder",
-        imageLink: "",
+        imageLink: "assets/images/friendfinder.png",
     },
     {
         projectName: "Burger Creator - Place your order!",
         liveLink: "https://afternoon-earth-59108.herokuapp.com/",
         githubLink: "https://github.com/aaanderson1/burger",
-        imageLink: "https://github.com/aaanderson1/burger/blob/master/public/assets/img/burger.png",
+        imageLink: "assets/images/burger.png",
     },
     {
         projectName: "Liri Node App (Siri API for musician info, concerts, movies, and more.)",
         // liveLink: "",
         githubLink: "https://github.com/aaanderson1/liri-node-app",
-        imageLink: "https://github.com/aaanderson1/liri-node-app/blob/master/screenshots/spotify-this-song.png",
+        imageLink: "assets/images/liri.png",
     },
     {
         projectName: "Page Turner",
         liveLink: "https://pageturner.herokuapp.com/",
         githubLink: "https://github.com/aaanderson1/project2",
-        imageLink: "https://github.com/aaanderson1/project2/blob/master/pageturnerscreenshot.png",
+        imageLink: "assets/images/pageturnerscreenshot.png",
     },
 
 ];

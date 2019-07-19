@@ -33,7 +33,7 @@ var projects = [
         projectName: "GifTastic - Express Yourself - Directory",
         liveLink: "https://aaanderson1.github.io/giftastic/",
         githubLink: "https://github.com/aaanderson1/giphytastic",
-        imageLink: "",
+        imageLink: "assets/giftasticscreenshot.png",
     },
     {
         projectName: "Bamazon - Online Inventory and Info",

@@ -18,8 +18,8 @@ var projects = [
         imageLink: "assets/images/triviagamethumbnail.jpg",
     },
     {
-        projectName: "Dude, Where's My Beer? - Group Project 1",
-        liveLink: "team7/index.html",
+        projectName: "Dude, Where's My Beer? - (Group Project 1)",
+        liveLink: "https://ebayler.github.io/Team7/",
         githubLink: "https://github.com/aaanderson1/aaanderson1.github.io/tree/master/team7",
         imageLink: "assets/images/beer-api-thumbnail.jpg",
     },
@@ -60,7 +60,7 @@ var projects = [
         imageLink: "assets/images/liri.png",
     },
     {
-        projectName: "Page Turner - Book Club Tracker - Group Project 2",
+        projectName: "Page Turner - Book Club Tracker - (Group Project 2)",
         liveLink: "https://pageturner.herokuapp.com/",
         githubLink: "https://github.com/aaanderson1/project2",
         imageLink: "assets/images/pageturnerscreenshot.png",

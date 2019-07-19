@@ -1,4 +1,4 @@
-# GifTastic - "Express Yourself! GIF Directory"
+# Allison Anderson's Portfolio - Hosted on Github"
 **Creator**: `Allison Anderson`
 - - -
 ## About Allison Anderson's Portfolio:

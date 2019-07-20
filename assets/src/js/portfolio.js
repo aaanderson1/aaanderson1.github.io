@@ -36,8 +36,8 @@ var projects = [
         imageLink: "assets/images/gifdirectorythumbnail.jpg",
     },
     {
-        projectName: "Bamazon - Online Inventory",
-        // liveLink: "",
+        projectName: "Bamazon - Node Online Inventory Database",
+        liveLink: "null",
         githubLink: "https://github.com/aaanderson1/bamazon",
         imageLink: "assets/images/bamazon.png",
     },

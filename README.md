@@ -1,4 +1,4 @@
-# Allison Anderson's Portfolio - Hosted on Github"
+# Allison Anderson's Portfolio - Hosted on Github
 **Creator**: `Allison Anderson`
 - - -
 ## About Allison Anderson's Portfolio:

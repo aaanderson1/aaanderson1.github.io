@@ -30,11 +30,11 @@ footer,
 
 #logo:hover,
 input[type=submit]:hover {
-  background: #5e7f7e;
+  background: #030c81;
 }
 
 nav a:hover {
-  color: #5e7f7e;
+  color: #030c81;
 }
 
 .social:hover {

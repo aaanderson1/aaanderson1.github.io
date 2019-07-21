@@ -65,7 +65,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #284645;
+  color: #1a65d4;
 }
 
 h1 {
@@ -102,7 +102,7 @@ h3 {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #1a65d4;
 }
 
 nav {
@@ -131,7 +131,7 @@ footer {
   color: rgb(223, 223, 223);
   text-align: center;
   background: #666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #1a65d4;
 }
 
 .sidebar {
@@ -212,7 +212,7 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #1a65d4;
   border: 0 none;
 }
 

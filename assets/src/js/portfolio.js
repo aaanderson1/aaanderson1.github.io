@@ -1,4 +1,4 @@
-ccvar projects = [
+var projects = [
     {
         projectName: "Word Guess Game - Hangman with Birds",
         liveLink: "word-guess-game/index.html",

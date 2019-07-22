@@ -1,5 +1,4 @@
-var projects = [
-    {
+var projects = [{
         projectName: "Word Guess Game - Hangman with Birds",
         liveLink: "word-guess-game/index.html",
         githubLink: "https://github.com/aaanderson1/Word-Guess-Game",
@@ -67,6 +66,7 @@ var projects = [
     },
 
 ];
+
 function buildProject(parent, project) {
     var containerDiv = document.createElement("div");
     containerDiv.classList.add("project-container");
@@ -91,6 +91,7 @@ function buildProject(parent, project) {
     parent.appendChild(containerDiv);
 
 }
+
 function initialize() {
     var parent = document.getElementById("projects");
     for (var i = 0; i < projects.length; ++i) {

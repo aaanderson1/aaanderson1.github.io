@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/aaanderson1/aaanderson1.github.io#readme",
   "dependencies": {
-    "materialize-css": "^1.0.0-rc.2"
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "popper": "^1.0.1"
   }
 }

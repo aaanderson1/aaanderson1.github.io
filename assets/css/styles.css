@@ -6,22 +6,22 @@ body {
     background: rgb(203, 203, 203);
 }
 
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
-}
+} */
 
 html,
 body {
     height: 100%;
 }
 
-.wrapper {
+/* .wrapper {
     height: auto !important;
     height: 100%;
     min-height: 100%;
     margin: 0 auto -105px;
-}
+} */
 
 footer,
 .push {
@@ -42,12 +42,12 @@ nav a:hover {
     opacity: 0.8;
 }
 
-.container {
+/* .container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
-}
+} */
 
 h1,
 h2,
@@ -86,7 +86,7 @@ h3 {
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
-    color: #fff;
+    color: #ccc;
     background: #777;
     border-bottom: 2px solid #ccc;
 }
@@ -94,11 +94,11 @@ h3 {
 #logo {
     float: left;
     width: 300px;
-    height: 90px;
+    height: 60px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
     font-weight: 700;
-    line-height: 90px;
+    line-height: 60px;
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -170,11 +170,11 @@ h3,
 .main-section {
     float: left;
     width: 100%;
-    max-width: 650px;
+    max-width: 1000px;
     padding: 30px;
-    margin: 0 0 40px;
-    background: #777;
-    border: 1px solid #ddd;
+    /* margin: 0 0 40px; */
+    background: rgb(184, 182, 182);
+    /* border: 1px solid #ddd; */
 }
 
 #contact-form ul {

@@ -1,4 +1,16 @@
 var projects = [{
+        projectName: "Page Turner - Book Club Tracker - (Group Project 2)",
+        liveLink: "https://pageturner.herokuapp.com/",
+        githubLink: "https://github.com/aaanderson1/project2",
+        imageLink: "assets/images/pageturnerscreenshot.png",
+    },
+    {
+        projectName: "Trivia Game - Golden Girls",
+        liveLink: "triviagame/index.html",
+        githubLink: "https://github.com/aaanderson1/triviagame",
+        imageLink: "assets/images/triviagamethumbnail.jpg",
+    },
+    {
         projectName: "Word Guess Game - Hangman with Birds",
         liveLink: "word-guess-game/index.html",
         githubLink: "https://github.com/aaanderson1/Word-Guess-Game",
@@ -9,12 +21,6 @@ var projects = [{
         liveLink: "unit-4-game/index.html",
         githubLink: "https://github.com/aaanderson1/unit-4-game",
         imageLink: "assets/images/crystalsthumbnail.jpg",
-    },
-    {
-        projectName: "Trivia Game - Golden Girls",
-        liveLink: "triviagame/index.html",
-        githubLink: "https://github.com/aaanderson1/triviagame",
-        imageLink: "assets/images/triviagamethumbnail.jpg",
     },
     {
         projectName: "Dude, Where's My Beer? - (Group Project 1)",
@@ -58,13 +64,6 @@ var projects = [{
         githubLink: "https://github.com/aaanderson1/liri-node-app",
         imageLink: "assets/images/liri.png",
     },
-    {
-        projectName: "Page Turner - Book Club Tracker - (Group Project 2)",
-        liveLink: "https://pageturner.herokuapp.com/",
-        githubLink: "https://github.com/aaanderson1/project2",
-        imageLink: "assets/images/pageturnerscreenshot.png",
-    },
-
 ];
 
 function buildProject(parent, project) {

@@ -1,1 +1,0 @@
-triviagame.js

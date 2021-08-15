@@ -1,0 +1,59 @@
+.play-area {
+    padding: 30px;
+    letter-spacing: 4px;
+    color: white;
+    text-align: center;
+}
+.play-text {
+    font-size: 50px;
+}
+
+.foreground {
+    background-color: rgba(0, 0, 0, 0.751);
+}
+
+.header {
+
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.guess-area {
+    padding-top: 30px;
+    font-size: 30px;
+    color: rgb(255, 0, 166);
+}
+.message-area {
+    padding-top: 30px;
+    font-size: 30px;
+}
+.guesses-remaining {
+    padding-top: 20px;
+    font-size: 30px;
+}
+.bkg {
+    background: url(../images/everybirdy.jpg) repeat 0 0; 
+}
+
+.reset-button {
+    font-size: 40px;
+    text-align: center;
+}
+
+button {
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.662);
+    color: white;
+    border: none;
+}
+
+.birdimage {
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/amazon.jpg);
+    background-size: 300px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}

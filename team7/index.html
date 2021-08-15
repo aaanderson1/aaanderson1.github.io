@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+  <link rel="stylesheet"
+        href="assets/css/style.css">
+  <title>Dude, Where's my Beer?</title>
+
+</head>
+
+<body>
+
+  <h1>DUDE, <br>Where's my Beer?</h1>
+
+
+  <div class="container">
+    <form id="searchFormForm">
+      <div class="form-search">
+        <label for="searchForm">Search:</label>
+        <input type="search"
+               class="form-control"
+               id="searchForm"
+               placeholder="search by: City">
+        <div id="modalMsg"></div>
+      </div>
+      <br>
+    </form>
+
+    <br>
+    <button disabled id="submit"
+            class="btn btn-outline">Submit</button>
+    <div id="cities"></div>
+    <div id="restaurants"></div>
+    <div id="results-table" class="results-table">
+      <table style="margin-bottom: 50px; width: 100%">
+        <thead>
+          <tr style="background-color: azure">
+            <th>Rating</th>
+            <th>Name</th>
+            <th>Address</th>
+          </tr>
+        </thead>
+        <tbody id="targetTable">
+
+
+    <div class="modal fade"
+         id="myModal"
+         role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button"
+                    class="close"></button>
+              
+            <h4> class="modal-title"></h4>
+          </div>
+          <div class="modal-body">
+            <p>Please search a valid City!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button"
+                    class="btn btn-default"
+                    data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="map"></div>
+  </div>
+
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Denver
+        var denver = {
+          lat: 39.7392,
+          lng: -104.9903,
+        };
+        // The map, centered at Denver
+        var map = new google.maps.Map(
+          document.getElementById('map'), {
+            zoom: 4,
+            center: denver
+          });
+        // The marker, positioned at Denver
+        var marker = new google.maps.Marker({
+          position: denver,
+          map: map
+        });
+      }
+    </script>
+
+    <script async
+            defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWkeBrVqfiVtRb3r_LkE-QQIEaugGoOYg&callback=initMap">
+    </script>
+
+    <br>
+
+    <div>
+      <table style="margin-bottom: 50px; width: 100%">
+        <thead id="targetTableHead">
+          <tr> </tr>
+        </thead>
+        <tbody id="targetTable">
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <footer> © 2019 | Allison | Emma | Igor | Erika | Surin</footer>
+
+  <!-- jQuery CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+          crossorigin="anonymous"></script>
+  <!-- TRIVIA APP JS -->
+  <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

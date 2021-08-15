@@ -1,0 +1,111 @@
+
+.background {
+    font-size: 20px;
+    font-family: "Arial";
+    text-align: left;
+    color: rgb(13, 186, 238);
+    background: url(../images/background.jpg);
+    background-color: #cccccc;
+    border: 2px solid black;
+    height: 800px;
+}
+
+.header {
+    font-size: 40px;
+    font-family: "arial bold";
+    color: palevioletred;
+    text-align: center;
+    padding: 40px;
+    display: none;
+}
+
+.start {
+    font-size: 40px;
+    font-family: "arial bold";
+    color: palevioletred;
+    text-align: center;
+    padding: 40px;
+    display: block;
+}
+
+.end {
+    font-size: 40px;
+    font-family: "arial bold";
+    color: palevioletred;
+    text-align: center;
+    padding: 40px;
+    display: none;
+}
+
+img {
+    width: 200px;
+}
+
+.info {
+    font-size: 35px;
+    font-family: "arial bold";
+    color: rgba(16, 63, 181, 0.721);
+    text-align: center;   
+}
+
+.timer {
+    color: rgb(255, 0, 191);
+    text-align: center;
+    font-family: "arial";
+    font-size: 35px;
+}
+
+.reset-button {
+    background-color: rgb(39, 201, 172);
+    color: rgb(167, 126, 225);
+    text-align: center;
+    font-family: "arial";
+    font-size: 40px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    border-style: solid !important;
+    border: #000000;
+    border-width: thick;
+}
+
+.reset-button:hover {
+    border: #222222;
+    border-width: thick;
+    background-color: #59aebd;
+    background-color: rgb(108, 193, 178);
+    color: rgb(116, 48, 212);
+    cursor: pointer;
+}
+
+.button {
+    background-color: #59aebd;
+    color: rgb(107, 22, 227);
+    text-align: center;
+    font-family: "arial";
+    font-size: 40px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    border-style: solid !important;
+    border: #000000;
+    border-width: thick;
+}
+
+.button:hover {
+    border: #222222;
+    border-width: thick;
+    background-color: #81acb4;
+    color: rgb(84, 26, 164);
+    cursor: pointer;
+}
+
+
+.foreground {
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 40px;
+    height: 710px;
+    border-style: solid !important;
+    border: #000000;
+    border-width: thick;
+}

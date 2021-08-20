@@ -11,7 +11,7 @@
     flex-direction: column;
     font-family: sans-serif;
     padding: 25px;
-    width: 100%;
+    width: 700px;
   }
   
   h1 {
@@ -167,9 +167,9 @@
     width: 6.25%; /* 60 / 960 = 0.0625 */
   }
   .container {
-    display: flex;
-  }
-  
-  .item {
-    flex: 1;
-  }
+  display: flex;
+}
+
+.item {
+  flex: 1;
+}

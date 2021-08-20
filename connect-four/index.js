@@ -16,7 +16,7 @@ if (squares[i + 7].classList.contains('taken')){
         displayCurrentPlayer.innerHTML = currentPlayer
     }
     if (squares[i + 7].classList.contains('taken')){
-        else if (CurrentPlayer == 1) {
+    } else if (CurrentPlayer == 1) {
             squares[i].classList.add('taken')
             squares[i].classList.add('player-two')
             currentPlayer = 1

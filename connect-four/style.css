@@ -5,20 +5,21 @@
   }
   
   body {
-    align-items: center;
+    align-items: left;
     background: rgb(83, 82, 88);
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
-    padding: 25px;
+    padding: 15px;
     width: 100%;
+    
   }
   
   h1 {
     /* text-transform: uppercase; */
-    background: white;
+    background:rgb(83, 82, 88);
     font-family: monospace;
-    font-size: 50px;
+    font-size: 40px;
     text-shadow: 4px 4px #00aeff;
 
 
@@ -29,8 +30,9 @@
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(7, 1fr);
     height: 500px;
-    margin: 10px 0 25px;
     width: 500px;
+    /* margin-left: auto;
+    margin-right: auto; */
   }
   
   .cell {
@@ -98,11 +100,12 @@
     border: none;
     color: white;
     cursor: pointer;
-    display: block;
+    display: inline-block;
     font-size: 20px;
     font-weight: bold;
     padding: 10px 15px;
     text-transform: uppercase;
+    margin: 4px 2px;
   }
   
   .reset:hover {
